@@ -1,7 +1,8 @@
-# Validation Log Analyzer
+# Log Analyzer
 # Author: Megha U
 # Purpose: Parse validation log files and extract test results
-#"[2024-03-01 09:00:18] FAIL  - Test: NVMe_Link_Speed - Expected Gen3x4, got Gen2x4"
+# pattern used : #"[2024-03-01 09:00:18] FAIL  - Test: NVMe_Link_Speed - Expected Gen3x4, got Gen2x4"
+
 import csv
 
 res=[]
@@ -28,7 +29,7 @@ for item in res:
         count["ERROR"]+=1
     elif item["status"]=="WARN":
         count["WARN"]+=1
-
+#we can use counter here 
 print("="*40)
 print("Log analysis report")
 print("="*40)
