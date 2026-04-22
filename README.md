@@ -23,12 +23,13 @@ Megha U — Platform Validation Engineer
 ========================================
     VALIDATION LOG ANALYSIS REPORT
 ========================================
-Total tests : 10
+
 PASS        : 3
 FAIL        : 4
 ERROR       : 2
 WARN        : 1
-Pass rate   : 30.0%
+TOTAL TESTS : 10
+PASS RATE   : 30.0%
 ========================================
 report.csv saved!
 

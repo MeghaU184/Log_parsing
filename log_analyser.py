@@ -32,12 +32,12 @@ for item in res:
 print("="*40)
 print("Log analysis report")
 print("="*40)
-print("pass:", count["PASS"])
-print("fail:", count["FAIL"])
-print("error:", count["ERROR"])
-print("warn:", count["WARN"])
-print("Total test:", len(res))
-print(f"Pass rate:, {count["PASS"]/len(res)*100}%")
+print("PASS:", count["PASS"])
+print("FAIL:", count["FAIL"])
+print("ERROR:", count["ERROR"])
+print("WARN:", count["WARN"])
+print("TOTAL TEST:", len(res))
+print(f"PASS RATE:, {count["PASS"]/len(res)*100}%")
 
 
 
