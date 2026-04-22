@@ -28,7 +28,7 @@ for item in res:
         count["ERROR"]+=1
     elif item["status"]=="WARN":
         count["WARN"]+=1
-
+#we can use counter here 
 print("="*40)
 print("Log analysis report")
 print("="*40)
