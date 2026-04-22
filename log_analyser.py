@@ -1,6 +1,8 @@
 # Log Analyzer
 # Author: Megha U
 # Purpose: Parse validation log files and extract test results
+# pattern used : #"[2024-03-01 09:00:18] FAIL  - Test: NVMe_Link_Speed - Expected Gen3x4, got Gen2x4"
+
 import csv
 
 res=[]
