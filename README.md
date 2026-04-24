@@ -26,7 +26,10 @@ Megha U — Platform Validation Engineer
    python log_analyser.py
 4. Run modular version:
    python log_analyser_v2.py
+
+
 ## Sample Output
+```
 ========================================
       SUMMARISED REPORT
 ========================================
@@ -39,6 +42,7 @@ Pass Rate   : 30.0%
 Fail Rate   : 40.0%
 ========================================
 CSV report saved!
+```
 
 ## Tech Stack
 - Python 3
